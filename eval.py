@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from torchvision import datasets
 import torchvision.transforms as transforms
-from train_model_q1 import CNN
+from train import CNN
 
 def eval():
 
