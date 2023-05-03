@@ -6,7 +6,7 @@ from train import CNN
 
 def eval():
 
-    # load CIFAR10 test data
+    # load CIFAR10 test data 
     transform0 = transforms.Compose([
         transforms.ToTensor(), transforms.Normalize((0.4914, 0.4822, 0.4465), (0.247, 0.2434, 0.2615)),
     ])
